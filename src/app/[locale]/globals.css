@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--font-ibm-plex-sans), Arial, Helvetica, sans-serif;
+	scroll-behavior: smooth;
+}
+
+body.dark {
+	background-color: #000;
+}
+
+@layer base {
+	:root {
+		--radius: 0.5rem;
+		--color-1: 0 100% 63%;
+		--color-2: 270 100% 63%;
+		--color-3: 210 100% 63%;
+		--color-4: 195 100% 63%;
+		--color-5: 90 100% 63%;
+	}
+	.dark {
+		--color-1: 0 100% 63%;
+		--color-2: 270 100% 63%;
+		--color-3: 210 100% 63%;
+		--color-4: 195 100% 63%;
+		--color-5: 90 100% 63%;
+	}
+}

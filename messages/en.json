@@ -1,0 +1,190 @@
+{
+	"test": {
+		"test1": "test 1"
+	},
+
+	"Nav": {
+		"Pricing": "Pricing",
+		"Terms": "Terms",
+		"Privacy": "Privacy",
+		"Join": "Start for Free"
+	},
+	"Hero": {
+		"Alive": "Where Ideas Come Alive.",
+		"Smarter": "Collaborate smarter with ",
+		"YourAI": "your AI-powered canvas for limitless creativity.",
+		"PurchaseNow": "Try for free"
+	},
+	"Bento": {
+		"Match": "Match the Speed of Your Curiosity",
+		"Faster": "earn Faster, Go Deeper, Discover More with AI on Microboard",
+		"CanvasTitle": "CanvasTools",
+		"CanvasDesc": "Professional-grade drawing tools with AI-powered suggestions and automated improvements.",
+		"CanvasCta": "Try for free",
+		"CollabTitle": "Team Collaboration",
+		"CollabDesc": "Invite your team and work together seamlessly with shared boards and real-time updates.",
+		"CollabCta": "Get access",
+		"AiTitle": "AI Assistant",
+		"AiDesc": "Get intelligent suggestions and automate repetitive tasks with our AI assistant.",
+		"AiCta": "Try AI",
+		"IntegrationsTitle": "Integrations Hub",
+		"IntegrationsDesc": "Connect with your favorite tools. Import from Miro, Figma, and export to various formats. Automate your workflow with Zapier and custom webhooks.",
+		"TemplateTitle": "Template library",
+		"TemplateDesc": "Centralized storage for all your design assets, templates, and resources. Smart search and tagging included.",
+		"TemplateCta": "Get access",
+		"TimeTitle": "Time machine",
+		"CollaborationTitle": "Collaboration",
+		"SecurityTitle": "Enterprise security",
+		"SmartOrgTitle": "Smart Workspace Organization",
+		"SmartOrgDesc": "AI-powered workspace that creates knowledge maps, suggests content connections, and maintains context across your infinite canvas. It adapts to your team's workflow, building intelligent spaces that evolve with your projects.",
+		"SmartOrgCta": "Get access",
+		"HistoryCta": "View history",
+		"GlobeCta": "Join us",
+		"SecurityCta": "Learn more"
+	},
+	"Liner": {
+		"Text": "· Developers · Designers · Marketers · Entrepreneurs · Analysts · Product Managers"
+	},
+	"Purchase": {
+		"Conversation": "Long conversations with A.I.",
+		"WithoutRepeating": "without repeating yourself",
+		"Desc": "Infinite Canvas allows users to interact effectively with AI by visualizing complex discussions, structures, and ideas in a convenient space. This approach facilitates context management and ensures more productive interaction with models."
+	},
+	"Reviews": {
+		"1": {
+			"name": "Mike",
+			"profession": "Software Engineer",
+			"body": "Microboard has notably improved our team's collaboration. Instead of juggling multiple apps, we now have everything we need on one continuous canvas, which really streamlines our workflow."
+		},
+		"2": {
+			"name": "Jessica",
+			"profession": "Product Manager",
+			"body": "I appreciate the AI chat feature—it effectively understands the board’s context, making our brainstorming sessions more efficient and organized."
+		},
+		"3": {
+			"name": "Ryan",
+			"profession": "UX/UI Designer",
+			"body": "Switching from Miro to Microboard was effortless. The process was quick and smooth, and it now fits perfectly into my design workflow."
+		},
+		"4": {
+			"name": "Ashley",
+			"profession": "Marketing Specialist",
+			"body": "The unlimited canvas offers a flexible space for our ideas to develop freely. It’s an excellent feature that supports a creative process without unnecessary limitations."
+		},
+		"5": {
+			"name": "Brandon",
+			"profession": "DevOps Engineer",
+			"body": "Saving boards as HTML files is very practical. It removes concerns about cloud storage and gives us full control over our data, which is a definite plus."
+		},
+		"6": {
+			"name": "Emily",
+			"profession": "Software Developer",
+			"body": "Microboard feels like a step forward in collaboration tools. Its intuitive design and AI capabilities have made it a reliable part of my daily development work."
+		},
+		"7": {
+			"name": "Daniel",
+			"profession": "Project Manager",
+			"body": "The ability to create unlimited boards without storage limitations is very useful for managing multiple projects at once. It’s a well-rounded solution that meets our needs."
+		},
+		"8": {
+			"name": "Karen",
+			"profession": "Team Lead",
+			"body": "Our team meetings have become more productive with real-time collaboration and AI-assisted brainstorming. It's a valuable tool that enhances our overall efficiency."
+		}
+	},
+	"Pricing": {
+		"GetStarted": "Get started",
+		"ContactUs": "Contact us",
+		"Free": "Free",
+		"Included": "What is included?",
+		"Flexible": "Flexible Pricing Plans",
+		"ForEveryone": "We’ve got options for everyone — from solo creators to large studios.",
+		"ChoosePlan": "Choose the plan that suits your workflow:",
+		"Basic": {
+			"title": "Basic ",
+			"features": {
+				"f1": "30 requests per week to GPT-4o mini",
+				"f2": "30 requests per week to DeepSeek-R1",
+				"f3": "Unlimited boards and figures",
+				"f4": "Images — up to 100 MB"
+			}
+		},
+		"Plus": {
+			"title": "Plus",
+			"features": {
+				"f1": "Unlimited access to GPT-4o mini",
+				"f2": "50 requests per week to GPT-4o",
+				"f3": "100 requests per week to  DeepSeek-R1",
+				"f4": "25 requests per day to Flux.1 schnell",
+				"f5": "Text-to-speech HD — 15,000 characters total (~20 min audio)",
+				"f6": "Unlimited boards, figures and storage space",
+				"f7": "Images — up to 100 GB"
+			}
+		},
+		"Custom": {
+			"price": "Custom pricing",
+			"title": "Custom",
+			"features": {
+				"f1": "On-premise version",
+				"f2": "Embed into your own product",
+				"f3": "Bring your own LLM",
+				"f4": "Unlimited boards, figures and storage space"
+			}
+		}
+	},
+	"Footer": {
+		"Curiosity": "Accelerate your curiosity",
+		"Slogan": "Where AI transforms your ideas into visual stories, one canvas at a time",
+		"Terms": "Terms",
+		"Privacy": "Privacy",
+		"Support": "Support",
+		"Guide": "Guide"
+	},
+	"Features": {
+		"UnlimitedFreeCollaboration": {
+			"title": "Unlimited Free Collaboration",
+			"description": "Only pay for AI and extra storage. Work with your team without any restrictions."
+		},
+		"LimitedTimeOffer": {
+			"title": "Limited Time Offer",
+			"description": "Register now and get unlimited boards and figures for life."
+		},
+		"EasyMigration": {
+			"title": "Easy Migration",
+			"description": "Seamlessly transfer your content from Miro with a simple copy and paste."
+		},
+		"FutureProofPlatform": {
+			"title": "Future-Proof Platform",
+			"description": "Built with the future in mind, offering advanced capabilities that set us apart.",
+			"subFeatures": {
+				"OpenFileFormat": "Open file format",
+				"OfflineCapabilities": "Offline capabilities",
+				"APIIntegrations": "API for integrations",
+				"BYOAI": "BYO (Bring Your Own) LLM for custom AI"
+			}
+		},
+		"Header": {
+			"tagline": "Why Choose Us",
+			"title": "Innovation Meets Simplicity",
+			"description": "Experience a platform that combines powerful features with intuitive design. We're not just another tool – we're your competitive advantage."
+		}
+	},
+	"FAQ": {
+		"title": "Frequently Asked Questions",
+
+		"question1": "What is Microboard?",
+		"answer1": "Microboard is an AI-powered infinite canvas that revolutionizes collaborative work. It combines unlimited whiteboarding with intelligent AI assistants that can create flowcharts, generate images, and maintain contextual threads across your entire workspace.",
+
+		"question2": "What can the AI assistant do?",
+		"answer2": "Our AI assistant is a powerful collaboration tool that can: create and organize discussion threads, analyze content across your entire board, generate custom images and diagrams, design flowcharts and mind maps, and maintain context between different conversations - all while working seamlessly with your team.",
+
+		"question3": "How does collaboration work?",
+		"answer3": "Collaboration is real-time and seamless. Multiple team members can work simultaneously on the infinite canvas, create and interact with AI threads, and organize content together. All changes sync instantly, and the AI assistant maintains context across all collaborative sessions.",
+
+		"question4": "Can I customize the AI's behavior and appearance?",
+		"answer4": "Absolutely! You can customize the system prompts, model settings, and AI behavior for each instance or provider. You can also control visual elements like animations and themes, and set up different AI profiles for various types of tasks.",
+
+		"question5": "What makes Microboard different from other whiteboard tools?",
+		"answer5": "Microboard uniquely combines infinite canvas capabilities with advanced AI assistance. Unlike traditional whiteboards, our AI can actively participate in your workflow, generate visual content, maintain complex conversation threads, and understand the context of your entire board - all while supporting unlimited collaboration."
+	}
+}
