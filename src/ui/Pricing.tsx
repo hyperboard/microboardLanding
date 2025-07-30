@@ -22,15 +22,25 @@ export const Pricing: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
 		{
 			id: "plus",
 			name: t("Plus.title"),
-			price: "$12",
+			price: "$6",
 			features: [
 				t("Plus.features.f1"),
 				t("Plus.features.f2"),
 				t("Plus.features.f3"),
 				t("Plus.features.f4"),
-				t("Plus.features.f5"),
-				t("Plus.features.f6"),
-				t("Plus.features.f7"),
+			],
+		},
+		{
+			id: "plus-ai",
+			name: t("PlusAI.title"),
+			price: "$18",
+			features: [
+				t("PlusAI.features.f1"),
+				t("PlusAI.features.f2"),
+				t("PlusAI.features.f3"),
+				t("PlusAI.features.f4"),
+				t("PlusAI.features.f5"),
+				t("PlusAI.features.f6"),
 			],
 		},
 		{

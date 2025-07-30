@@ -103,8 +103,8 @@
 		"Basic": {
 			"title": "Basic ",
 			"features": {
-				"f1": "30 requests per week to GPT-4o mini",
-				"f2": "30 requests per week to DeepSeek-R1",
+				"f1": "GPT-4o mini",
+				"f2": "DeepSeek-R1",
 				"f3": "Unlimited boards and figures",
 				"f4": "Images — up to 100 MB"
 			}
@@ -112,13 +112,21 @@
 		"Plus": {
 			"title": "Plus",
 			"features": {
-				"f1": "Unlimited access to GPT-4o mini",
-				"f2": "50 requests per week to GPT-4o",
-				"f3": "100 requests per week to  DeepSeek-R1",
-				"f4": "25 requests per day to Flux.1 schnell",
-				"f5": "Text-to-speech HD — 15,000 characters total (~20 min audio)",
-				"f6": "Unlimited boards, figures and storage space",
-				"f7": "Images — up to 100 GB"
+				"f1": "All features of the Basic plan",
+				"f2": "GPT-All premium features of the board except AI",
+				"f3": "Images — up to 100 GB",
+				"f4": "Premium support"
+			}
+		},
+		"PlusAI": {
+			"title": "Plus AI",
+			"features": {
+				"f1": "All features of the Basic plan",
+				"f2": "GPT-4o",
+				"f3": "Flux.1 Pro",
+				"f4": "Flux.1 Schnell",
+				"f5": "Text-to-speech HD",
+				"f6": "Images — up to 100 GB"
 			}
 		},
 		"Custom": {

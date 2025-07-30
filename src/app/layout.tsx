@@ -49,7 +49,7 @@ export default async function RootLayout({
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<body
-				className={`${geistSans.variable} ${geistMono.variable} ${ibmPlexSans.variable} antialiased min-h-screen bg-white dark:bg-black`}
+				className={`${geistSans.variable} ${geistMono.variable} ${ibmPlexSans.variable} antialiased min-h-screen bg-white dark:bg-black overflow-x-hidden`}
 			>
 				<ThemeProvider defaultTheme="system">
 					<NextIntlClientProvider messages={messages}>

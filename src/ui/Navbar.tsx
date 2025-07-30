@@ -21,7 +21,7 @@ export const Navbar: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
 	return (
 		<nav
 			className={cn(
-				"text-black dark:text-white backdrop-blur-sm z-[9999] shadow-transparent bg-zinc-50/50 dark:bg-zinc-950/50 fixed flex flex-col lg:flex-row items-center justify-between px-4 sm:px-6 py-4 w-[95%] sm:w-[90%] lg:w-full max-w-[1280px] border-[1px] border-zinc-500/25 rounded-[8px]",
+				"text-black dark:text-white backdrop-blur-sm z-[9999] shadow-transparent bg-zinc-50/50 dark:bg-zinc-950/50 fixed flex flex-col lg:flex-row items-center justify-between px-4 sm:px-6 py-4 left-1/2 transform -translate-x-1/2 max-w-[95%] sm:max-w-[90%] lg:max-w-[1280px] w-full border-[1px] border-zinc-500/25 rounded-[8px]",
 				props.className,
 			)}
 			ref={ref}
