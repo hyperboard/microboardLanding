@@ -77,7 +77,7 @@ export const Features: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
 				t("FutureProofPlatform.subFeatures.OpenFileFormat"),
 				t("FutureProofPlatform.subFeatures.OfflineCapabilities"),
 				t("FutureProofPlatform.subFeatures.APIIntegrations"),
-				t("FutureProofPlatform.subFeatures.BYOAI"),
+				// t("FutureProofPlatform.subFeatures.BYOAI"),
 			],
 		},
 	];

@@ -25,11 +25,11 @@ export default function Home() {
 			/>
 			<Bento className="px-[8px]" />
 			<Liner className="mt-[64px]" />
-			<Purchase className="mt-32 px-4 mx-auto" />
-			<Reviews className="" />
+			{/* <Purchase className="mt-32 px-4 mx-auto" /> */}
+			{/* <Reviews className="" /> */}
 			<Pricing className="py-20 px-4 mx-auto" />
 			<Features className="" />
-			<FAQ className="mt-12 mx-auto" />
+			{/* <FAQ className="mt-12 mx-auto" /> */}
 			<Footer className="mt-[32px] sm:mt-[48px] md:mt-[64px]" />
 		</div>
 	);

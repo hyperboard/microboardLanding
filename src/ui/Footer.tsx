@@ -32,9 +32,9 @@ export const Footer: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
 						{t("Curiosity")} →
 					</ShimmerButton>
 
-					<p className="text-white text-xs sm:text-sm">
-						{t("Slogan")}
-					</p>
+					{/* <p className="text-white text-xs sm:text-sm"> */}
+					{/* 	{t("Slogan")} */}
+					{/* </p> */}
 				</div>
 
 				<div className="mt-16 sm:mt-20 md:mt-24 flex flex-col md:flex-row items-center justify-between text-xs sm:text-sm text-white">

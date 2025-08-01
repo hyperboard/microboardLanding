@@ -68,7 +68,7 @@ export const Bento: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
 			description: t("CollabDesc"),
 			// href: "/team-collaboration",
 			cta: t("CollabCta"),
-			className: "lg:row-span-3 lg:col-span-1 md:row-span-2 row-span-2",
+			className: "lg:row-span-3 lg:col-span-2 md:row-span-2 row-span-2",
 			background: null,
 		},
 		{
@@ -80,15 +80,15 @@ export const Bento: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
 			className: "lg:row-span-3 lg:col-span-2 md:row-span-2 row-span-2",
 			background: null,
 		},
-		{
-			Icon: Zap,
-			name: t("AiTitle"),
-			description: t("AiDesc"),
-			// href: "/ai-assistant",
-			cta: t("AiCta"),
-			className: "lg:row-span-3 lg:col-span-1 md:row-span-2 row-span-2",
-			background: null,
-		},
+		// {
+		// 	Icon: Zap,
+		// 	name: t("AiTitle"),
+		// 	description: t("AiDesc"),
+		// 	// href: "/ai-assistant",
+		// 	cta: t("AiCta"),
+		// 	className: "lg:row-span-3 lg:col-span-1 md:row-span-2 row-span-2",
+		// 	background: null,
+		// },
 		// {
 		//   Icon: Share2Icon,
 		//   name: t('IntegrationsTitle'),
@@ -100,44 +100,44 @@ export const Bento: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
 		//     <AnimatedBeamGroup className="absolute pl-[800px] inset-[-160px] border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
 		//   ),
 		// },
-		{
-			Icon: Brain,
-			name: t("SmartOrgTitle"),
-			description: t("SmartOrgDesc"),
-			// href: "/smart-organization",
-			cta: t("SmartOrgCta"),
-			className: "lg:row-span-3 lg:col-span-4 md:row-span-2 row-span-2",
-			background: (
-				<Marquee
-					repeat={2}
-					pauseOnHover
-					className="absolute top-10 [--duration:20s] [mask-image:linear-gradient(to_top,transparent_40%,#000_100%)] "
-				>
-					{files.map((f, idx) => (
-						<figure
-							key={idx}
-							className={cn(
-								"relative w-32 cursor-pointer overflow-hidden rounded-xl border p-4",
-								"border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
-								"dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]",
-								"transform-gpu blur-[1px] transition-transform duration-300 ease-out hover:blur-none",
-							)}
-						>
-							<div className="flex flex-row items-center gap-2">
-								<div className="flex flex-col">
-									<figcaption className="text-sm font-medium dark:text-white ">
-										{f.name}
-									</figcaption>
-								</div>
-							</div>
-							<blockquote className="mt-2 text-xs dark:text-zinc-600 text-zinc-600">
-								{f.body}
-							</blockquote>
-						</figure>
-					))}
-				</Marquee>
-			),
-		},
+		// {
+		// 	Icon: Brain,
+		// 	name: t("SmartOrgTitle"),
+		// 	description: t("SmartOrgDesc"),
+		// 	// href: "/smart-organization",
+		// 	cta: t("SmartOrgCta"),
+		// 	className: "lg:row-span-3 lg:col-span-4 md:row-span-2 row-span-2",
+		// 	background: (
+		// 		<Marquee
+		// 			repeat={2}
+		// 			pauseOnHover
+		// 			className="absolute top-10 [--duration:20s] [mask-image:linear-gradient(to_top,transparent_40%,#000_100%)] "
+		// 		>
+		// 			{files.map((f, idx) => (
+		// 				<figure
+		// 					key={idx}
+		// 					className={cn(
+		// 						"relative w-32 cursor-pointer overflow-hidden rounded-xl border p-4",
+		// 						"border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
+		// 						"dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]",
+		// 						"transform-gpu blur-[1px] transition-transform duration-300 ease-out hover:blur-none",
+		// 					)}
+		// 				>
+		// 					<div className="flex flex-row items-center gap-2">
+		// 						<div className="flex flex-col">
+		// 							<figcaption className="text-sm font-medium dark:text-white ">
+		// 								{f.name}
+		// 							</figcaption>
+		// 						</div>
+		// 					</div>
+		// 					<blockquote className="mt-2 text-xs dark:text-zinc-600 text-zinc-600">
+		// 						{f.body}
+		// 					</blockquote>
+		// 				</figure>
+		// 			))}
+		// 		</Marquee>
+		// 	),
+		// },
 		{
 			Icon: Database,
 			name: t("TemplateTitle"),

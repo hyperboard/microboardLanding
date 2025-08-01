@@ -98,11 +98,11 @@ export const Navbar: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
 					</a>
 					<a
 						onClick={handleMenuItemClick}
-						href="https://docs.microboard.io/"
+						href="https://github.com/hyperboard/microboardUI"
 						target="_blank"
 						className="hover:text-zinc-700 dark:hover:text-zinc-300"
 					>
-						API
+						Fork us on GitHub
 					</a>
 				</div>
 

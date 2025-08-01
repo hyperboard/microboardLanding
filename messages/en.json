@@ -12,12 +12,12 @@
 	"Hero": {
 		"Alive": "Where Ideas Come Alive.",
 		"Smarter": "Collaborate smarter with ",
-		"YourAI": "your AI-powered canvas for limitless creativity.",
+		"YourCanvas": "your digital canvas for limitless creativity.",
 		"PurchaseNow": "Try for free"
 	},
 	"Bento": {
-		"Match": "Match the Speed of Your Curiosity",
-		"Faster": "earn Faster, Go Deeper, Discover More with AI on Microboard",
+		"Match": "Where Curiosity Meets Velocity - ",
+		"Faster": "Expand Your Horizons with Microboard",
 		"CanvasTitle": "CanvasTools",
 		"CanvasDesc": "Professional-grade drawing tools with AI-powered suggestions and automated improvements.",
 		"CanvasCta": "Try for free",
@@ -106,7 +106,7 @@
 				"f1": "GPT-4o mini",
 				"f2": "DeepSeek-R1",
 				"f3": "Unlimited boards and figures",
-				"f4": "Images — up to 100 MB"
+				"f4": "Media — up to 100 MB"
 			}
 		},
 		"Plus": {
@@ -114,7 +114,7 @@
 			"features": {
 				"f1": "All features of the Basic plan",
 				"f2": "GPT-All premium features of the board except AI",
-				"f3": "Images — up to 100 GB",
+				"f3": "Media — up to 100 GB",
 				"f4": "Premium support"
 			}
 		},
@@ -126,7 +126,7 @@
 				"f3": "Flux.1 Pro",
 				"f4": "Flux.1 Schnell",
 				"f5": "Text-to-speech HD",
-				"f6": "Images — up to 100 GB"
+				"f6": "Media — up to 100 GB"
 			}
 		},
 		"Custom": {
@@ -151,7 +151,7 @@
 	"Features": {
 		"UnlimitedFreeCollaboration": {
 			"title": "Unlimited Free Collaboration",
-			"description": "Only pay for AI and extra storage. Work with your team without any restrictions."
+			"description": "Only pay for extra storage. Work with your team without any restrictions."
 		},
 		"LimitedTimeOffer": {
 			"title": "Limited Time Offer",

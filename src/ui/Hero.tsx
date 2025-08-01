@@ -32,7 +32,7 @@ export const Hero: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
 				>
 					{t("Alive")} <br />
 					{t("Smarter")} <Highlight>Microboard.io</Highlight> —{" "}
-					{t("YourAI")}
+					{t("YourCanvas")}
 				</motion.h1>
 			</HeroHighlight>
 
