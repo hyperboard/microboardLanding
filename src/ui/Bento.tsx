@@ -6,55 +6,52 @@ import {
 	Clock,
 	Database,
 	Paintbrush,
-	Zap,
 	Users,
-	Brain,
 } from "lucide-react";
 import React from "react";
 // import { AnimatedBeamGroup } from './AnimatedBeamGroup';
 import GridPattern from "@/components/ui/grid-pattern";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
-import Marquee from "@/components/ui/marquee";
 
-const files = [
-	{
-		name: "bitcoin.pdf",
-		body: "Bitcoin is a cryptocurrency invented in 2008 by an unknown person or group of people using the name Satoshi Nakamoto.",
-	},
-	{
-		name: "finances.xlsx",
-		body: "A spreadsheet or worksheet is a file made of rows and columns that help sort data, arrange data easily, and calculate numerical data.",
-	},
-	{
-		name: "logo.svg",
-		body: "Scalable Vector Graphics is an Extensible Markup Language-based vector image format for two-dimensional graphics with support for interactivity and animation.",
-	},
-	{
-		name: "keys.gpg",
-		body: "GPG keys are used to encrypt and decrypt email, files, directories, and whole disk partitions and to authenticate messages.",
-	},
-	{
-		name: "seed.txt",
-		body: "A seed phrase, seed recovery phrase or backup seed phrase is a list of words which store all the information needed to recover Bitcoin funds on-chain.",
-	},
-	{
-		name: "passwords.txt",
-		body: "A password is a string of characters that is used to access a computer system, service, or application.",
-	},
-	{
-		name: "wallet.dat",
-		body: "A wallet is a digital storage device that stores private keys and other data related to an account.",
-	},
-	{
-		name: "cat.png",
-		body: "A cat is a small carnivorous mammal with soft fur, a short, rounded head, two sets of sharp teeth, and a long tail.",
-	},
-	{
-		name: "book.pdf",
-		body: "A PDF is a digital document format for storing and displaying documents that are intended to be read and printed on paper.",
-	},
-];
+// const files = [
+// 	{
+// 		name: "bitcoin.pdf",
+// 		body: "Bitcoin is a cryptocurrency invented in 2008 by an unknown person or group of people using the name Satoshi Nakamoto.",
+// 	},
+// 	{
+// 		name: "finances.xlsx",
+// 		body: "A spreadsheet or worksheet is a file made of rows and columns that help sort data, arrange data easily, and calculate numerical data.",
+// 	},
+// 	{
+// 		name: "logo.svg",
+// 		body: "Scalable Vector Graphics is an Extensible Markup Language-based vector image format for two-dimensional graphics with support for interactivity and animation.",
+// 	},
+// 	{
+// 		name: "keys.gpg",
+// 		body: "GPG keys are used to encrypt and decrypt email, files, directories, and whole disk partitions and to authenticate messages.",
+// 	},
+// 	{
+// 		name: "seed.txt",
+// 		body: "A seed phrase, seed recovery phrase or backup seed phrase is a list of words which store all the information needed to recover Bitcoin funds on-chain.",
+// 	},
+// 	{
+// 		name: "passwords.txt",
+// 		body: "A password is a string of characters that is used to access a computer system, service, or application.",
+// 	},
+// 	{
+// 		name: "wallet.dat",
+// 		body: "A wallet is a digital storage device that stores private keys and other data related to an account.",
+// 	},
+// 	{
+// 		name: "cat.png",
+// 		body: "A cat is a small carnivorous mammal with soft fur, a short, rounded head, two sets of sharp teeth, and a long tail.",
+// 	},
+// 	{
+// 		name: "book.pdf",
+// 		body: "A PDF is a digital document format for storing and displaying documents that are intended to be read and printed on paper.",
+// 	},
+// ];
 
 export const Bento: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
 	...props

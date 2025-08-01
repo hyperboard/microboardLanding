@@ -1,14 +1,11 @@
 // import { Flipper } from '@/ui/Flipper';
 import { Bento } from "@/ui/Bento";
-import { FAQ } from "@/ui/FAQ";
 import { Features } from "@/ui/Features";
 import { Footer } from "@/ui/Footer";
 import { Hero } from "@/ui/Hero";
 import { Liner } from "@/ui/Liner";
 import { Navbar } from "@/ui/Navbar";
 import { Pricing } from "@/ui/Pricing";
-import { Purchase } from "@/ui/Purchase";
-import Reviews from "@/ui/Reviews";
 
 export default function Home() {
 	return (
