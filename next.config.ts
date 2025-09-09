@@ -5,7 +5,6 @@ const repoName = 'microboardLanding';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Говорим Next.js генерировать статический HTML
   output: 'export',
 
   basePath: `/${repoName}`,
@@ -16,6 +15,6 @@ const nextConfig = {
   },
 
   trailingSlash: false,
-};
+} as const;
 
 export default withNextIntl(nextConfig);
