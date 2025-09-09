@@ -1,8 +1,19 @@
 import createNextIntlPlugin from "next-intl/plugin";
 
 const withNextIntl = createNextIntlPlugin();
+const repoName = 'microboardLanding';
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {} as const;
+const nextConfig = {
+  // Говорим Next.js генерировать статический HTML
+  output: 'export',
+
+  basePath: `/${repoName}`,
+  assetPrefix: `/${repoName}/`,
+
+  images: {
+    unoptimized: true,
+  },
+};
 
 export default withNextIntl(nextConfig);
