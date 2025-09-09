@@ -7,8 +7,8 @@ const repoName = 'microboardLanding';
 const nextConfig = {
   output: 'export',
 
-  basePath: `/${repoName}`,
-  assetPrefix: `/${repoName}/`,
+  basePath: "",
+  assetPrefix: "",
 
   images: {
     unoptimized: true,
